@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cafe Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="raw">
+				<img src="image/imagelogo.png" class="logo animated infinite bounce delay-2s">
+				<ul class="main-nav animated infinite pulse delay-2s" id="check-class">
+				<li><a href="index.html" class="active" target="_blank">CAKE DELIVERY</a></li>	
+				<li><a href="#">HOW TO ORDER</a></li>	
+				<li><a href="#">CHECK MORE</a></li>	
+				<li><a href="#">SIGN UP</a></li>	
+				</ul>
+				<a href="#" class="icons" onclick="slideshow()"><i class="material-icons">&#xe5d2;</i></a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+			<h1>WELCOME TO <span class="changecolor">MOKA CAFE</span> <br>
+			HOUSE OF CAKE LOVERS WOO YES!!</h1>
+
+			<a href="index.html" class="btn btn-full">CLICK TO ORDER</a>
+			<a href="index.html" class="btn btn-sec">SHOW ME MORE</a>
+		</div>
+		
+	</header>
+
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display === 'none'){
+				x.style.display = 'block';
+			}else{
+				x.style.display = 'none';
+			}
+		}
+	</script>
+
+</body>
+</html>
